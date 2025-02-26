@@ -25,11 +25,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC                  &mt F1 N1       &mt F2 N2    &mt F3 N3     &mt F4 N4         &mt F5 N5                                  &mt F6 N6  &mt F7 N7    &mt F8 N8    &mt F9 N9    &mt F10 N0       &kp GRAVE
-&kp TAB                  &kp Q           &kp W        &kp F         &kp P             &kp B                                      &kp J      &kp L        &kp U        &kp Y        &kp SEMICOLON    &kp MINUS
-&kp BACKSPACE            &mt LEFT_ALT A  &mt LMETA R  &mt LCTRL S   &mt LEFT_SHIFT T  &kp G                                      &kp M      &mt RSHFT N  &mt RCTRL E  &mt RMETA I  &mt RIGHT_ALT O  &kp ENTER
-&mt K_MUTE K_PLAY_PAUSE  &mt K_UNDO Z    &mt K_CUT X  &mt K_COPY C  &kp D             &mt K_PASTE V  &kp LBKT         &kp RBKT   &kp K      &kp H        &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
-                                                      &kp LALT      &kp LGUI          &tog 1         &mt TAB SPACE    &kp SPACE  &tog 2     &kp BSPC     &kp RGUI
+&kp ESC                  &mt F1 N1       &mt F2 N2    &mt F3 N3     &mt F4 N4         &mt F5 N5                                      &mt F6 N6  &mt F7 N7    &mt F8 N8    &mt F9 N9    &mt F10 N0       &kp EQUAL
+&kp TAB                  &kp Q           &kp W        &kp F         &mt C_AC_PRINT P  &kp B                                          &kp J      &kp L        &kp U        &kp Y        &kp SEMICOLON    &kp MINUS
+&kp BACKSPACE            &mt LEFT_ALT A  &mt LMETA R  &mt LCTRL S   &mt LEFT_SHIFT T  &kp G                                          &kp M      &mt RSHFT N  &mt RCTRL E  &mt RMETA I  &mt RIGHT_ALT O  &kp SQT
+&mt K_MUTE K_PLAY_PAUSE  &mt K_UNDO Z    &mt K_CUT X  &mt K_COPY C  &kp D             &mt K_PASTE V  &kp LBKT         &kp RBKT       &kp K      &kp H        &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
+                                                      &kp LALT      &kp LGUI          &tog 1         &mt TAB SPACE    &mt RET SPACE  &tog 2     &kp BSPC     &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
