@@ -29,7 +29,7 @@
 &kp TAB                  &kp Q           &kp W        &kp F         &kp P             &kp B                                      &kp J      &kp L        &kp U        &kp Y        &kp SEMICOLON    &kp MINUS
 &kp BACKSPACE            &mt LEFT_ALT A  &mt LMETA R  &mt LCTRL S   &mt LEFT_SHIFT T  &kp G                                      &kp M      &mt RSHFT N  &mt RCTRL E  &mt RMETA I  &mt RIGHT_ALT O  &kp ENTER
 &mt K_MUTE K_PLAY_PAUSE  &mt K_UNDO Z    &mt K_CUT X  &mt K_COPY C  &kp D             &mt K_PASTE V  &kp LBKT         &kp RBKT   &kp K      &kp H        &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
-                                                      &kp LALT      &kp LGUI          &tog 1         &mt TAB SPACE    &kp SPACE  &mo 2      &kp BSPC     &kp RGUI
+                                                      &kp LALT      &kp LGUI          &tog 1         &mt TAB SPACE    &kp SPACE  &tog 2     &kp BSPC     &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -48,8 +48,8 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &trans  &trans        &trans        &trans        &trans       &trans
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                &kp F7  &kp F8        &kp F9        &kp F10       &kp F11      &kp F12
 &kp GRAVE   &mt LALT N1   &mt LMETA N2  &mt LCTRL N3  &mt LSHFT N4  &kp N5                                &kp N6  &mt RSHFT N7  &mt RCTRL N8  &mt RMETA N9  &mt RALT N0  &kp TILDE
-&trans      &tog 0        &tog 1        &tog 2        &tog 3        &tog 4        &trans       &trans     &trans  &kp MINUS     &kp KP_PLUS   &kp LBRC      &kp RBRC     &kp PIPE
-                                        &trans        &trans        &tog 0        &kp SPACE    &kp SPACE  &trans  &trans        &trans
+&trans      &tog 0        &tog 1        &tog 2        &trans        &trans        &trans       &trans     &trans  &kp MINUS     &kp KP_PLUS   &kp LBRC      &kp RBRC     &kp PIPE
+                                        &trans        &trans        &tog 0        &kp SPACE    &kp SPACE  &tog 2  &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
