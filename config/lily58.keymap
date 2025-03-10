@@ -44,11 +44,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC                   &HMR F1 N1       &HMR F2 N2    &HMR F3 N3     &HMR F4 N4         &HMR F5 N5                                               &HMR F6 N6  &HMR F7 N7    &HMR F8 N8    &HMR F9 N9    &HMR F10 N0       &kp EQUAL
-&kp TAB                   &kp Q            &kp W         &kp F          &HMR C_AC_PRINT P  &kp B                                                    &kp J       &kp L         &kp U         &kp Y         &kp SEMICOLON     &kp MINUS
-&kp BACKSPACE             &HMR LEFT_ALT A  &HMR LMETA R  &HMR LCTRL S   &HMR LEFT_SHIFT T  &kp G                                                    &kp M       &HMR RSHFT N  &HMR RCTRL E  &HMR RMETA I  &HMR RIGHT_ALT O  &kp SQT
-&HMR K_MUTE K_PLAY_PAUSE  &HMR K_UNDO Z    &HMR K_CUT X  &HMR K_COPY C  &kp D              &HMR K_PASTE V  &kp LBKT                 &kp RBKT        &kp K       &kp H         &kp COMMA     &kp DOT       &kp FSLH          &kp RSHFT
-                                                         &kp LALT       &kp LGUI           &to 1           &HMR LEFT_SHIFT SPACE    &HMR RET SPACE  &to 2       &kp BSPC      &kp RGUI
+&kp ESC                   &HMR F1 N1       &HMR F2 N2    &HMR F3 N3     &HMR F4 N4         &HMR F5 N5                                                   &HMR F6 N6  &HMR F7 N7    &HMR F8 N8    &HMR F9 N9    &HMR F10 N0       &kp EQUAL
+&kp TAB                   &kp Q            &kp W         &kp F          &HMR C_AC_PRINT P  &kp B                                                        &kp J       &kp L         &kp U         &kp Y         &kp SEMICOLON     &kp MINUS
+&kp BACKSPACE             &HMR LEFT_ALT A  &HMR LMETA R  &HMR LCTRL S   &HMR LEFT_SHIFT T  &kp G                                                        &kp M       &HMR RSHFT N  &HMR RCTRL E  &HMR RMETA I  &HMR RIGHT_ALT O  &kp SQT
+&HMR K_MUTE K_PLAY_PAUSE  &HMR K_UNDO Z    &HMR K_CUT X  &HMR K_COPY C  &kp D              &HMR K_PASTE V  &kp LBKT                     &kp RBKT        &kp K       &kp H         &kp COMMA     &kp DOT       &kp FSLH          &kp RSHFT
+                                                         &kp LALT       &kp LGUI           &to 1           &HMR LEFT_SHIFT BACKSPACE    &HMR RET SPACE  &to 2       &kp BSPC      &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -64,11 +64,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                          &none   &none          &none          &none          &none         &none
-&kp F1      &kp F2        &kp F3         &kp F4         &kp F5         &kp F6                                &kp F7  &kp F8         &kp F9         &kp F10        &kp F11       &kp F12
-&kp GRAVE   &HMR LALT N1  &HMR LMETA N2  &HMR LCTRL N3  &HMR LSHFT N4  &kp N5                                &kp N6  &HMR RSHFT N7  &HMR RCTRL N8  &HMR RMETA N9  &HMR RALT N0  &kp TILDE
-&none       &to 0         &to 1          &to 2          &none          &none         &none        &none      &none   &kp MINUS      &kp KP_PLUS    &kp LBRC       &kp RBRC      &kp PIPE
-                                         &none          &none          &to 0         &kp SPACE    &kp SPACE  &to 2   &none          &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                                          &none   &none          &none          &none          &none         &none
+&kp F1      &kp F2        &kp F3         &kp F4         &kp F5         &kp F6                                                &kp F7  &kp F8         &kp F9         &kp F10        &kp F11       &kp F12
+&kp GRAVE   &HMR LALT N1  &HMR LMETA N2  &HMR LCTRL N3  &HMR LSHFT N4  &kp N5                                                &kp N6  &HMR RSHFT N7  &HMR RCTRL N8  &HMR RMETA N9  &HMR RALT N0  &kp TILDE
+&none       &to 0         &to 1          &to 2          &none          &none         &none                        &none      &none   &kp MINUS      &kp KP_PLUS    &kp LBRC       &kp RBRC      &kp PIPE
+                                         &none          &none          &to 0         &HMR LEFT_SHIFT BACKSPACE    &kp SPACE  &to 2   &none          &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
